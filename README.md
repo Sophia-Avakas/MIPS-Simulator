@@ -23,5 +23,5 @@
 <br>
 <br>There is single blank between the label and the opcodes, and the opcodes and their operands. All label start with the keyword ‘label’ and followed by a numeric value.
 <br>
-<br>###Pipelining and Data Forwarding Rules:
+###<br>Pipelining and Data Forwarding Rules:
 <br>This is a 3 stage pipeline with Fetch, Execute and Write-Back as the only stages. Data forwarding happens ONLY after the execution of the preceding instruction to the execution stage of the current instruction. In case of Branches, you must STALL the pipeline till the end of the execution stage for the branch to know if branch is taken or not.
